@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
-import Accordion from './state-drills/Accordion'
+import sectionsProp from './state-drills/Sections';
+import Accordion from './state-drills/Accordion';
 
 function App() {
   return (
     <main className='App'>
-      <Accordion />
+      <Accordion sections={sectionsProp}/>
     </main>
   );
 }
