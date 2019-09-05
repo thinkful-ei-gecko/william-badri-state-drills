@@ -22,7 +22,7 @@ class Bomb extends React.Component {
     }
 
     render () {
-        console.log(this.state);
+        console.log(this.state.count);
         if (this.state.count % 2 === 0 && this.state.count < 8) {
             return (
                 <div>
@@ -47,7 +47,7 @@ class Bomb extends React.Component {
                 </div>
             )
         }
-    return (<div>something</div>)    
+    return (<div>{this.state.count}</div>)    
     }
     
 }
