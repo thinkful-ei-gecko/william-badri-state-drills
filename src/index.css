@@ -14,4 +14,21 @@ code {
 
 ul {
   list-style: none;
+  width: 500px;
+}
+
+li {
+  background-color: lightgrey;
+}
+
+button {
+  background-color: rgb(0, 0, 0, 0);
+  border: none;
+  padding: 15px;
+  width: 500px;
+  text-align: center;
+}
+
+p{
+  padding:15px;
 }
